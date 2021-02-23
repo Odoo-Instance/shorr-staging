@@ -1,0 +1,14 @@
+id,active,perm_create,perm_unlink,perm_read,perm_write,domain_force,id,groups,name,model_id
+purchase.purchase_order_own_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",purchase.purchase_order_own_rule,Purchase / Own Documents,Personal Purchase Order,Purchase Order
+purchase.purchase_order_approval_own_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",purchase.purchase_order_approval_own_rule,Purchase / Own Documents,Personal Purchase Order Approval,Purchase Order Approval
+purchase.purchase_requisition_own_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",purchase.purchase_requisition_own_rule,Purchase / Own Documents,Personal Purchase Requisition,Purchase Requisition
+purchase.purchase_report_own_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",purchase.purchase_report_own_rule,Purchase / Own Documents,Personal Purchase Report,Purchase Report
+purchase.purchase_&_bills_union_own_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",purchase.purchase_&_bills_union_own_rule,Purchase / Own Documents,Personal Purchases & Bills Union,Purchases & Bills Union
+purchase.purchase_order_branch_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",purchase.purchase_order_branch_rule,Purchase / Branch Documents,Branch Purchase Order,Purchase Order
+purchase.purchase_order_approval_branch_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",purchase.purchase_order_approval_branch_rule,Purchase / Branch Documents,Branch Purchase Order Approval,Purchase Order Approval
+purchase.purchase_requisition_branch_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",purchase.purchase_requisition_branch_rule,Purchase / Branch Documents,Branch Purchase Requisition,Purchase Requisition
+purchase.purchase_report_branch_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",purchase.purchase_report_branch_rule,Purchase / Branch Documents,Branch Purchase Report,Purchase Report
+purchase.purchase_&_bills_union_branch_rule,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",purchase.purchase_&_bills_union_branch_rule,Purchase / Branch Documents,Branch Purchases & Bills Union,Purchases & Bills Union
+inventory.stock_picking_own,TRUE,TRUE,TRUE,TRUE,TRUE,"['|',('user_id','=',user.id),('user_id','=',False)]",inventory.stock_picking_own,Inventory / Own Documents,Personal Stock Picking,Transfer
+inventory.stock_picking_branch,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",inventory.stock_picking_branch,Inventory / Branch Documents,Branch Stock Picking,Transfer
+sale.sale_order_branch,TRUE,TRUE,TRUE,TRUE,TRUE,"[('company_id','in',company_ids)]",sale.sale_order_branch,Sales / Branch Documents,Branch Sale Order,Sales Order

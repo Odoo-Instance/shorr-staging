@@ -1,0 +1,12 @@
+id,active,perm_create,perm_unlink,id,group_id,name,model_id,perm_read,perm_write
+access_purchase_order_own,TRUE,TRUE,TRUE,access_purchase_order_own,Purchase / Own Documents,purchase.order.own,Purchase Order,TRUE,TRUE
+access_purchase_requisition_own,TRUE,TRUE,TRUE,access_purchase_requisition,Purchase / Own Documents,purchase.requisition.own,Purchase Requisition,TRUE,TRUE
+access_purchase_line_own,TRUE,TRUE,TRUE,access_purchase_line_own,Purchase / Own Documents,purchase.order.line.own,Purchase Order Line,TRUE,TRUE
+access_purchase_report_own,TRUE,TRUE,TRUE,access_purchase_report_own,Purchase / Own Documents,purchase.report.own,Purchase Report,TRUE,TRUE
+access_purchase_requisition_line_own,TRUE,TRUE,TRUE,access_purchase_requisition_line_own,Purchase / Own Documents,purchase.requisition.line.own,Purchase Requisition Line,TRUE,TRUE
+access_purchase_requisition_type_own,TRUE,TRUE,TRUE,access_purchase_requisition_type_own,Purchase / Own Documents,purchase.requisition.type.own,Purchase Requisition Type,TRUE,TRUE
+access_purchase_billunion_own,TRUE,TRUE,TRUE,access_purchase_billunion_own,Purchase / Own Documents,purchase.bill.union.own,Purchases & Bills Union,TRUE,TRUE
+access_stock_inventory_own,TRUE,TRUE,TRUE,access_stock_inventory_own,Inventory / Own Documents,inventory.stock.inventory.own,Inventory,TRUE,TRUE
+access_stock_inventory_line_own,TRUE,TRUE,TRUE,access_stock_inventory_line_own,Inventory / Own Documents,inventory.stock.inventory.line.own,Inventory Line,TRUE,TRUE
+access_stock_scrap_own,TRUE,TRUE,TRUE,access_stock_scrap_own,Inventory / Own Documents,inventory.stock.scrap.own,Scrap,TRUE,TRUE
+access_stock_picking_own,TRUE,TRUE,TRUE,access_stock_picking_own,Inventory / Own Documents,inventory.stock.picking.own,Transfer,TRUE,TRUE

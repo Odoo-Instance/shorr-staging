@@ -1,0 +1,6 @@
+id,model_access,menu_access,category_id,color,comment,id,implied_ids,name,rule_groups,share,users,view_access
+purchase.group_purchase_user_own,,,Purchase,0,,purchase.group_purchase_user_own,Purchase / User,Own Documents,,,,
+purchase.group_purchase_branch,,,Purchase,0,,purchase.group_purchase_branch,Purchase / Own Documents,Branch Documents,,,,
+inventory.group_inventory_user_own,,,Inventory,0,,inventory.group_inventory_user_own,Inventory / User,Own Documents,,,,
+inventory.group_inventory_branch,,,Inventory,0,,inventory.group_inventory_branch,Inventory / Own Documents,Branch Documents,,,,
+sales.group_sales_branch,,,Sales,0,,sales.group_sales_branch,Sales / User: Own Documents Only,Branch Documents,,,,
